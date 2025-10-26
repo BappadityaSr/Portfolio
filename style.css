@@ -18,7 +18,7 @@ body {
 }
 
 /* Navigation */
-.navbar {
+/* .navbar {
     position: fixed;
     top: 0;
     width: 100%;
@@ -28,6 +28,23 @@ body {
     z-index: 1000;
     padding: 1rem 0;
     box-shadow: 0 2px 20px rgba(0, 0, 0, 0.5);
+} */
+
+.navbar {
+    /* justify-content: space-between; */
+    /* align-items: center; */
+    padding: 1rem 0;
+    background: rgba(0, 0, 0, 0.95);
+    backdrop-filter: blur(5px);
+    box-shadow: 0 2px 20px rgba(0, 0, 0, 0.5);
+    position: fixed;
+    width: calc(100% - 4rem);
+    top: 1rem;
+    left: 2rem;
+    border-radius: 20px;
+    z-index: 1000;
+    transition: all 0.4s ease;
+    border: 1px solid rgba(139,92,246,0.2);
 }
 
 .nav-container {
